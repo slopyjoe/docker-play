@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  username: dockerplay
+  password: password1
+  host: localhost
+  pool: 5
+
+development:
+  <<: *default
+  database: dockerplay
+
+test:
+  <<: *default
+  database: dockerplay_test
