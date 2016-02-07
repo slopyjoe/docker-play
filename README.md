@@ -1,4 +1,4 @@
-== Docker Play source code
+# Docker Play source code
 
 The source code for `Rails with Docker`. This serves as the baseline Rails application with nothing dockerized yet.
 
