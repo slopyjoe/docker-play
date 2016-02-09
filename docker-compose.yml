@@ -1,0 +1,10 @@
+db:
+  build: ./dockerfiles/db
+  volumes_from:
+    - pg_data
+  ports:
+    - "5442:5432"
+  environment:
+    - POSTGRES_PASSWORD=password1
+pg_data:
+  build: ./dockerfiles/data/

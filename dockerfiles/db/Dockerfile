@@ -1,0 +1,6 @@
+FROM postgres:9.4
+
+ENV POSTGRES_PASSWORD password1 
+
+EXPOSE 5432
+
